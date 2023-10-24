@@ -238,7 +238,7 @@ public class Main {
             x--;
             y++;
         }
-        x = tempX - 1;
+        x = tempX + 1;
         y = tempY - 1;
         while (isCellValid(x, y) && field[x][y] == dot) {
             counter++;
